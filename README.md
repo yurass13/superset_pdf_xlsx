@@ -61,6 +61,7 @@ Module contains decorator *exec_js_wrapper* that makes it easier to work with se
 
 
 ### Example:
+#### Using Decorator
 ```py
 # Using default decorator params
 @exec_js_wrapper
@@ -74,7 +75,7 @@ def bpdf_from_url(driver:'WebDriver', *args, **kwargs) -> bytes:
 ```
 The function to be decorated must have the driver as input parameters to work directly with selenium.webdriver.
 
-Using decorated function:
+#### Using Decorated function:
 ```py
 url = "example.com"
 wait_condition = selenium_js_executor.expected_conditions.invisibility_of_element_located(
