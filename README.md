@@ -1,5 +1,5 @@
-# PDF from webpage and XLSX from table (dynamic webpage)
-Designed to work with custom ApacheSuperset charts.
+# PDF from webpage and XLSX from table (SPA)
+Designed for processing with custom ApacheSuperset charts.
 
 # JS part
 
